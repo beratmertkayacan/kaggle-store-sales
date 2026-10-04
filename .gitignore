@@ -1,6 +1,16 @@
+# Veri dosyaları (Kaggle üzerinden indirilir, data/README.md dosyasına bakın)
+data/*
+!data/README.md
+
+# Eğitilmiş model dosyaları (notebook 03 yeniden üretir)
+submissions/*.txt
+
+# Python
 venv/
 .venv/
 __pycache__/
-.DS_Store
-data/
+*.pyc
+.ipynb_checkpoints/
 
+# macOS
+.DS_Store
